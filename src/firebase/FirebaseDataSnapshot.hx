@@ -1,6 +1,7 @@
-package ;
+package firebase;
 
 /** https://www.firebase.com/docs/javascript/datasnapshot/ */
+@:native("FirebaseDataSnapshot")
 extern class FirebaseDataSnapshot {
 	public function val():Dynamic;
 	public function child(childPath:String):FirebaseDataSnapshot;

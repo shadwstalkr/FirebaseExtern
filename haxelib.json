@@ -1,11 +1,11 @@
 {
 	"name": "FirebaseExtern",
-	"contributors": ["troysteinbauer"],
+	"contributors": ["troysteinbauer", "amijlee"],
 	"url" : "https://github.com/troysteinbauer/FirebaseExtern/",
 	"license": "MIT",
 	"tags": ["extern", "firebase", "javascript", "js", "node", "node.js"],
 	"description": "Wrapper for creating strongly typed firebase objects in Haxe.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"classPath": "src/",
 	"releasenote": "Removed included compiled js and cleaned up"
 }

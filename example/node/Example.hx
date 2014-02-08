@@ -2,6 +2,9 @@
  * Haxe + Firebase + Node.js Example
  * untyped __js__ magic can be replaced for real Node.js externs of your choice
  **/
+
+import firebase.*;
+
 class Example {
 
 	/** Main */

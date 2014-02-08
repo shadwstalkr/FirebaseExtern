@@ -5,6 +5,9 @@ import js.Browser;
 import js.html.InputElement;
 import js.html.ButtonElement;
 import js.html.Element;
+
+import firebase.*;
+
 class Example {
 
 	/** Main */

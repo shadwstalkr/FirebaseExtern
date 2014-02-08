@@ -1,6 +1,7 @@
-package ;
+package firebase;
 
 /** https://www.firebase.com/docs/javascript/ondisconnect/ */
+@:native("FirebaseDisconnect")
 extern class FirebaseDisconnect {
 	public function set():Void;
 	public function setWithPriority():Void;

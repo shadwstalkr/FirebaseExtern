@@ -1,6 +1,7 @@
-package ;
+package firebase;
 
 /** https://www.firebase.com/docs/javascript/firebase/ */
+@:native("Firebase")
 extern class Firebase {
 	public static inline var TYPE_VALUE:String = "value";
 	public static inline var TYPE_CHILD_ADDED:String = "child_added";
