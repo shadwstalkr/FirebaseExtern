@@ -23,7 +23,7 @@ extern class Firebase {
 	public function push(value:Dynamic, ?onComplete:Dynamic->Void):Void; // Dynamic Error object
 	public function setWithPriority(value:Dynamic, priority:Dynamic, ?onComplete:Dynamic->Void):Void; // Dynamic Error object
 	public function setPriority(priority:Dynamic, ?onComplete:Dynamic->Void):Void; // Dynamic Error object
-	public function transaction(updateFunction:Dynamic->Dynamic, ?onComplete:Dynamic->Void, ?applyLocally:Bool):Void;
+	public function transaction(updateFunction:Dynamic->Dynamic, ?onComplete:Dynamic->Bool->FirebaseDataSnapshot->Void, ?applyLocally:Bool):Void;
 	public function on(eventType:String, successCallback:FirebaseDataSnapshot->String->Void, ?cancelCallback:Void->Void, ?context:Dynamic):Void;
 	public function off(?eventType:String, ?successCallback:FirebaseDataSnapshot->String->Void, ?context:Dynamic):Void;
 	public function once(eventType:String, successCallback:FirebaseDataSnapshot->String->Void, ?failureCallback:Void->Void, ?context:Dynamic):Void;
